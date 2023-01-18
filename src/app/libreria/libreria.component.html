@@ -1,0 +1,19 @@
+<h1>BIENVENIDOS A LA PAGINA DE LOS LIBROS</h1>
+<div class="enlaces-container">
+<a class="enlaces" href ="/">Libros</a>
+<a class="enlaces" href ="/">Novedades</a>
+<a class="enlaces" href ="/">Mas leídos</a>
+</div>
+
+
+<app-registros [registros]="arrayLibros"></app-registros>
+
+<h5>PUEDES AÑADIR UN LIBRO!</h5>
+<app-nuevo-libro (newLibro)="addLibro($event)"></app-nuevo-libro>
+<!-- <input (input)="changeValue(myInput.value)" #myInput/>
+<input (input)="changeValue(myInput2.value)" #myInput2/>
+
+<p>{{myInput.value}}</p>
+<p>{{myInput2.value}}</p> -->
+
+

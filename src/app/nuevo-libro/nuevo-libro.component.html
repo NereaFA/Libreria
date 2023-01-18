@@ -1,0 +1,11 @@
+<p>Añade abajo tu cuento favorito</p>
+
+<div>
+    <input placeholder = "Introduce  el titulo" type="text" #title />
+    <input placeholder = "Introduce el autor" type="text" #autor />
+    <input placeholder = "Introduce una imagen" type="text"  #imgUrl />
+
+    <button type="button" (click)="addLibro({title: title.value, autor: autor.value, imgUrl: imgUrl.value})">Añade Libro</button>
+   
+</div>
+

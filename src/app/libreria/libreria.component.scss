@@ -1,0 +1,21 @@
+h1{
+    font-family: fantasy;
+    color: rgb(16, 126, 126);
+    border-color: orange;
+    border-width: 1px;
+    border-style:dashed;
+    text-align: center;
+}
+.enlaces{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enlaces-container{
+    width:40%;
+    height: 100%;
+    display: inline-flex;
+}
